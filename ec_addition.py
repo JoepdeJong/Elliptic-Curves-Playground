@@ -24,13 +24,11 @@ X, Y = np.meshgrid(x, y)
 # Function
 Z = ec.f(X, Y)
 
-p1 = None
-p2 = None
+p1, p2 = None, None
+x, y, z = None, None, 1
+
 temp = []
 
-x = None
-y = None
-z = 1
 
 plt_p1, plt_p2, plt_r1, plt_r2, plt_l1, plt_l2, plt_l3 = None, None, None, None, None, None, None
 
